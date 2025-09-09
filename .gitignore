@@ -1,0 +1,47 @@
+# Ignore sensitive files
+secure-config/
+.env
+*.env
+*.key
+*.pem
+config.php
+database_credentials.txt
+
+# Ignore system files
+.DS_Store
+.htaccess
+
+# Ignore deployment scripts
+scripts/deploy.sh
+scripts/backup.sh
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore node modules
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+*.log
+
+# Ignore uploaded images
+public/assets/images/uploads/
+
+# Ignore backups
+backups/
+
+# Ignore AI training data
+ai-modules/*/training-data.json
+ai-modules/*/models/
+
+# Ignore composer files
+vendor/
+composer.lock
+
+# Ignore package files
+package-lock.json
